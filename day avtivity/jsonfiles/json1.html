@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON-Pharse</title>
+</head>
+
+<body>
+    <h1 id="t1">
+
+    </h1>
+    <h2 id="demo"></h2>
+    <script>
+        const p1 = '{"name":"mani","dob":"2023.07.27","city":"namakkal"}'
+        const j1 = JSON.parse(p1,function(k,v)
+        {
+            if(k == "dob") {
+                return new Date(v)
+            }
+
+            else
+            {
+                return v;
+            }
+        });
+        document.getElementById("t1").innerHTML=j1.name+","+j1.dob+","+j1.city;
+            </script>
+
+            <script>
+                const  m1='{"name":"maniknadan","age":"22","instutite":"livewire","city":"namakkal"}'
+                const t1=JSON.parse(m1,function(key,value){
+                    if(key=="city")
+                    {
+                        return new Date(value)
+                    }
+                    else{
+                        return value;
+                    }
+                });
+                document.getElementById("demo").innerHTML=t1.name+","+t1.age+","+t1.instutite+","+t1.city;
+
+            </script>
+</body>
+
+</html>

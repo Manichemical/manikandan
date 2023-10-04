@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *,
+        *::after,
+        *::before {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+
+        }
+
+        .nav {
+            margin: 0;
+        }
+
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            overflow: hidden;
+            width: auto;
+
+        }
+
+        li {
+
+            float: left;
+
+        }
+
+        li a {
+            float: left;
+            padding: 10px;
+            letter-spacing: .5px;
+            display: block;
+            color: aliceblue;
+            text-decoration: none;
+        }
+
+        .li {
+            float: right;
+        }
+
+        .reg {
+            float: right;
+            background-color: brown;
+            text-align: center;
+            margin-right: 5px;
+
+        }
+
+        .active {
+            background-color: brown;
+
+        }
+
+        li a:hover {
+            background-color: #333;
+        }
+
+        .img {
+            margin: 0;
+            width: 100%;
+            height: 100%;
+            background: no-repeat;
+            position: absolute;
+        }
+
+        h1 {
+            text-align: center;
+            justify-content: center;
+
+        }
+
+        .h {
+            position: relative;
+            text-align: center;
+            text-transform: uppercase;
+            letter-spacing: .5px;
+            color: aliceblue;
+            text-shadow: 2px 5px 5px black;
+            padding: 50px;
+            margin-top: 50px;
+            
+        }
+
+        .p1 {
+            position: relative;
+            justify-content: center;
+            padding-left: 50px;
+            padding-top: 150px;
+            font-size: 30px;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: bold;
+            text-shadow: 2px 5px 5px black;
+            color: white;
+        }
+
+        .button .a {
+            position: relative;
+            background-color: #4CAF50;
+            /* Green */
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            left: 50px;
+            top: 100px;
+            text-decoration: none;
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <navbar>
+
+    </navbar>
+    <navbar class="nav">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Contact</a></li>
+            <li class="li"><a class="active" href="index.html">login</a></li>
+            <li class="reg"><a class="active" href="#">Register</a></li>
+        </ul>
+    </navbar>
+    <div class="setup">
+        <img class="img" src="backimg.jpg"></img>
+        <h1 class="h">student login form</h1>
+        <p class="p1">choice-filling<br> is now open <br><br> for the academic year</p>
+        <button class="button"><a class="a" href="apply\apply.html">Apply now</a></button>
+    </div>
+    <div>
+
+    </div>
+
+</body>
+
+</html>

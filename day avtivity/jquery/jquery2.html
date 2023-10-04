@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+</head>
+
+<body>
+    <button>clickhere</button>
+    <div id="f1" style="width: 50px; height: 50px; background-color: aquamarine;"></div>
+    <br>
+    <br>
+    <div id="f2" style="width: 50px; height: 50px; background-color:blueviolet;"></div>
+    <br>
+    <div id="f3" style="width: 50px; height: 50px; background-color:black;"></div>
+    <br>
+    <div id="f4" style="width: 50px; height: 50px; background-color:blueviolet;"></div>
+    <br>
+    <div id="f5" style="width: 50px; height: 50px; background-color:violet;"></div>
+    <br>
+    <div id="f6" style="width: 50px; height: 50px; background-color:maroon;"></div>
+    <br>
+    <div id="f7" style="width: 50px; height: 50px; background-color:lawngreen;"></div>
+
+<p id="p1">welcome</p>
+<p id="p2">mqniknafa</p>
+
+    <script>
+        $(document).ready(function () {
+            $("button").click(function () {
+                $("#f1").fadeIn();
+                $("#f2").fadeOut();
+                $("#f3").fadeTo(1000);
+                $("#f4").fadeToggle();
+                $("#f5").fadeToggle("slow");
+                $("#p1").toggle();
+                $("#p2").hide(10000);
+            });
+        });
+    </script>
+</body>
+
+</html>

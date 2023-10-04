@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY CV</title>
+    <link rel="stylesheet" href="app.css">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+        integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />"
+</head>
+
+<body>
+    <div class="container">
+        <div class="left-side">
+            <div class="profile">
+                <div class="imagx">
+                    <img src="mani.jpg">
+                </div>
+                <h2>R.Manikandan</h2>
+                <span>full stack web developer</span>
+            </div>
+            <div class="contact">
+                <h3 class="tittle">Contact Info</h3>
+                <ul>
+                    <li>
+                        <span class="icon"><i class="fa fa-phone" aria-hidden="true"></i></span>
+                        <span class="text">6381012929</span>
+                    </li>
+                    <li>
+                        <span class="icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></span>
+                        <span class="text">manichemical333@gmail.com</span>
+                    </li>
+                    <li>
+                        <span class="icon"><i class="fa fa-user" aria-hidden="true"></i></span>
+                        <span class="text">www.my333website.com</span>
+                    </li>
+                    <li>
+                        <span class="icon"><i class="fa fa-linkedin" aria-hidden="true"></i></span>
+                        <span class="text">www.linkedin.com</span>
+                    </li>
+
+                </ul>
+
+                <div class="skills">
+                    <h3 class="tittle">Techinical skills</h3>
+                    <ul>
+                        <li>
+                            <h3>Front end</h3>
+                            <span>Html,</span><br>
+                            <span>Css,</span><br>
+                            <span>java script</span>
+
+                        </li>
+                        <li>
+                            <h3>Back end</h3>
+                            <span>React js,</span><br>
+                            <span>Express js</span>
+                        </li>
+                        <li>
+                            <h3>Database</h3>
+                            <span>Mongo db,</span><br>
+                            <span>My sql</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="right-side">
+            <div class="about">
+                <h3 class="obj">Objective</h3>
+                <p class="p1">
+                    I am looking for a challenging job with a rapdily growing organization that can provide me with a
+                    range of goals and job objective within a contemporary and econamical business setting.
+                </p>
+                <div class="  education">
+                    <h3 class="tittlex">Education</h3>
+                    <ul>
+                        <li>
+                            <h5>2018-2022</h5>
+                            <h4>B.tech degree in chemical engineering</h4>
+                            <p>
+                            <h5>Anna university</h5>
+                            <h4>Gananamani college of engineering</h4>
+                            </p>
+                        </li>
+                        <li>
+                            <h5>HSC-2018</h5>
+                            <h4>Govern ment of high secondary school Namakkal</h4>
+
+                        </li>
+                        <li>
+                            <h5>sslc-2016</h5>
+                            <h4>Govern ment high school Namakkal</h4>
+                        </li>
+                    </ul>
+                </div>
+                <div class="personal">
+                    <h3>Personal profile</h3>
+                    <ul>
+                        <li>
+                            <span>Fathers name :</span>
+                            <span>M.Ravi</span>
+                        </li>
+                        <li>
+                            <span>Date of birth :</span>
+                            <span>01/01/2001</span>
+                        </li>
+                        <li>
+                            <span>Nationality :</span>
+                            <span>Indian</span>
+                        </li>
+                        <li>
+                            <span>Marital status :</span>
+                            <span>No</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="declar">
+                    <h3>Declaration</h3>
+                    <p class="p2">I herby declare that the information gives is true to the best of my knowledge and belif, and i
+                        have not withheld any information,which might resonably be calculated to adversly affect my
+                        suitablity for employment.</p>
+                </div>
+                <div class="date">
+                    <ul>
+                        <li>
+                            <span>Date :</span><br><br>
+                            <span>Place :</span>
+
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</body>
+
+</html>

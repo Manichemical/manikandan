@@ -1,0 +1,279 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'open sans';
+}
+
+body {
+    background: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 100px;
+    background: #fff;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0, 0, 0, 1);
+}
+
+.container .left-side {
+    position: relative;
+    background: #003147;
+    padding: 40px;
+}
+
+.profile {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #fff;
+}
+
+.profile .imagx {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 5px 10px 10px white;
+}
+
+.profile .imagx img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.profile h2 {
+    align-items: center;
+    font-size: 24px;
+    margin-top: 10px;
+    color: azure;
+}
+
+.profile span {
+    font-size: 18px;
+     color: azure;
+}
+
+.contact {
+    padding-top: 40px;
+}
+
+.tittle {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    box-shadow: 2px 5px 5px green;
+}
+
+.contact ul {
+    position: relative;
+}
+
+.contact ul li {
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.contact ul li .icon {
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: #03a9fa;
+}
+
+.contact ul li span {
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.skills {
+    padding-top: 40px;
+}
+
+.skills ul {
+    position: relative;
+}
+
+.skills ul li {
+    position: relative;
+    margin: 10px;
+    list-style-type: disc;
+}
+
+.skills ul li h3 {
+    color: black;
+    letter-spacing: 1px;
+}
+
+.skills ul li span {
+    margin: 10px;
+    letter-spacing: 1px;
+}
+
+
+.container .right-side {
+    position: relative;
+    background: #fff;
+    padding: 40px;
+}
+
+.about {
+    margin-bottom: 50px;
+}
+
+.about:last-child {
+    margin-bottom: 0;
+
+}
+
+.obj {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    box-shadow: 2px 5px 5px green;
+    text-align: center;
+    background-color: #003147;
+}
+
+.p1 {
+    font-size: 20px;
+    font-weight: 300;
+    padding-left: 5px;
+    margin-left: 5px;
+    letter-spacing: 1px;
+}
+
+.education {
+    position: relative;
+    margin-top: 20px;
+}
+
+.education .tittlex {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    box-shadow: 2px 5px 5px green;
+    text-align: center;
+    background-color: #003147;
+}
+
+.education ul {
+    position: relative;
+}
+
+.education ul li {
+    position: relative;
+    margin: 10px;
+    list-style-type: disc;
+}
+
+.education ul li h5 {
+    font-size: 22px;
+    font-weight: 500;
+    color: #021f2e;
+    letter-spacing: 1px;
+}
+
+.education ul li h4 {
+    font-size: 20px;
+    margin-left: 5px;
+    letter-spacing: 1px;
+}
+
+.personal {
+    position: relative;
+    margin-top: 20px;
+}
+
+.personal h3 {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    box-shadow: 2px 5px 5px green;
+    text-align: center;
+    background-color: #003147;
+}
+
+.personal ul {
+    position: relative;
+}
+
+.personal ul li {
+    list-style-type: disc;
+    margin-top: 10px;
+}
+
+.personal ul li span {
+    margin-left: 20px;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.declar {
+    position: relative;
+    margin-top: 20px;
+}
+
+.declar h3 {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    box-shadow: 2px 5px 5px green;
+    text-align: center;
+    background-color: #003147;
+}
+
+.declar .p2 {
+    font-size: 20px;
+    margin-left: 5px;
+    letter-spacing: 1px;
+}
+
+.date {
+    position: relative;
+    margin-top: 10px;
+}
+
+.date ul {
+    position: relative;
+}
+
+.date ul li {
+    list-style-type: none;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+.date ul li span {
+    font-size: 20px;
+    letter-spacing: 1px;
+}

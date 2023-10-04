@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <!--Navbar start-->
+    <center>
+        <h1>Shooping Shopers</h1>
+    </center>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+
+            <div>
+                <ul class="nav navbar-nav">
+                    <li><a href="" class="glyphicon glyphicon-home">Home</a></li>
+                    <li><a href="" class="glyphicon glyphicon-user">AboutUs</a></li>
+
+                    <li><a href="addproducts.html" class="glyphicon glyphicon-plus">AddProduct</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="login.html" class="glyphicon glyphicon-cloud">Login</a></li>
+                    <li><a href="sign.html" class="glyphicon glyphicon-file">SignUp</a></li>
+                    <form class="navbar-form navbar-left" action="/action_page.php">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Search product & Brand">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--Navbar End-->
+
+    <div class="container">
+        <h1>UserRegister</h1>
+        <form class="form-group">
+            <div class="form-group">
+                UserName:<input type="text" class="form-control" />
+            </div>
+            <div class="form-group">
+                Password:<input type="password" class="form-control" />
+            </div>
+            <div class="form-group">
+                EmailId:<input type="email" class="form-control" />
+            </div>
+            <div class="form-group">
+                Gender:<input type="text" class="form-control" />
+            </div>
+            <div class="form-group">
+                Address:<input type="text" class="form-control" />
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Register" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

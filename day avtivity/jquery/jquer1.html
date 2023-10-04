@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+</head>
+<body>
+
+    <p id="d1">maniak nada</p>
+    <br>
+    <p id="d2">zzzzzzzzzzzzzzzzzzzzzzzzz</p>
+    <br>
+    <p id="d3">maniak nada</p>
+    <p id="d4">maniak nada</p>
+    <p id="d5">maniak nada</p>
+    <script>
+        $(document).ready(function(){
+            $("#d1").mouseenter(function(){
+                alert("you nter")
+            });
+        });
+    </script>
+
+<script>
+    $(document).ready(function(){
+        $("#d2").mousedown(function(){
+            alert("ooo.. yaa...")
+        });
+    });
+</script>
+
+<script>
+    $(document).ready(function(){
+        $("#d3").mouseleave(function(){
+            alert("mmmm...")
+        });
+    });
+</script>
+</body>
+</html>

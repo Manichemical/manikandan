@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', 'Times New Roman', Times, serif;
+}
+
+body {
+    background: #beb4b4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    margin: 0;
+    color:#fff;
+    display: grid;
+    grid-template-columns: 1fr 1.8fr;
+    
+}
+
+.container .left-side {
+    position: relative;
+    background: linear-gradient(#03fff4, rgb(28, 64, 148), #36b1b1);
+    padding: 20px;
+   
+}
+
+.profile {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.profile .imagx {
+    position: relative;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    box-shadow: 10px 10px 10px black;
+
+
+}
+
+.profile .imagx img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    object-fit: cover;
+}
+
+.profile h2 {
+    margin-top: 5px;
+    font-size: 25px;
+    color: black;
+}
+
+.profile span {
+    margin-top: 10px;
+    font-size: 20PX;
+    font-weight: 500;
+    font-style: bold;
+    color:BLACK;
+
+}
+
+.contact {
+    padding-top: 40px;
+    
+}
+
+.tittle {
+    color: #020641;
+    background-color:#fff5;
+    text-transform: uppercase;
+    font-weight: 1000;
+    letter-spacing: .5;
+    margin-top: 5px;
+    box-shadow: 10px 5px 5px green;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.contact ul {
+    position: relative;
+}
+
+.contact ul li {
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+.contact ul li .icon {
+    display: inline-block;
+    width: 30px 0;
+    font-size: 18px;
+    color: #333;
+    font-variant: normal;
+
+}
+
+.contact ul li .text {
+    font-weight: 300;
+} 
+
+.skills {
+    position: relative;
+}
+
+.skills .tittle{
+    color: #020641;
+    background-color: #fff5;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: .5;
+    margin-top: 20px;
+    box-shadow: 10px 5px green;
+    font-size: 18px;
+}
+
+.skills ul {
+    position: relative;
+}
+
+.skills ul li {
+    position: relative;
+    margin: 10px 0;
+}
+
+.skills ul li h3 {
+    color: #000000;
+    font-weight: 300;
+    margin-top: 20px;
+
+}
+.skill ul li h3 span{
+margin-top: 20px;
+    letter-spacing: 1px;
+}
+
+.container .right-side {
+    position: relative;
+    background:linear-gradient(#fff, #e2dddd, #776d6d);
+    padding: 40px;
+    letter-spacing: 1px;
+    overflow: hidden;
+}
+
+.about {
+    margin-bottom: 50px;
+
+}
+
+.about:last-child {
+    margin-bottom: 0;
+}
+.about .obj{
+    color: #020641;
+    text-transform: uppercase;
+    font-weight: 1000;
+    letter-spacing: .5;
+    margin-top: 5px;
+    font-size: larger;
+    box-shadow: 10px 5px 5px green;
+    background-color:  #17d4d4;
+}
+
+ 
+
+.about .p1 {
+    color: black;
+    margin: 20px;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: .5;
+    margin-left: 10px;
+}
+
+.about .education {
+    margin-top: 25px;
+    position: relative;
+}
+
+.about .education li {
+    margin: 20px;
+    list-style-type: none;
+}
+
+.about .education h5 {
+    color: #2826c2;
+    font-weight: 1000;
+    font-size: 20px;
+}
+.about .education .tittle{
+    color: #020641;
+    text-transform: uppercase;
+    font-weight: 1000;
+    letter-spacing: .5;
+    margin-top: 5px;
+    font-size: larger;
+    box-shadow: 10px 5px 5px green;
+    background-color:  #17d4d4;
+}
+
+.about .education h4 {
+    color: black;
+    font-weight: 500;
+    margin: 10px;
+    font-size: 18px;
+}
+
+.about .personal {
+    margin-top: 20px;
+    position: relative;
+}
+
+.about .personal h5 {
+    color: #020641;
+    text-transform: uppercase;
+    font-weight: 1000;
+    letter-spacing: .5;
+    margin-top: 5px;
+    font-size: larger;
+    box-shadow: 10px 5px 5px green;
+    background-color:  #17d4d4;
+}
+
+.about .personal ul {
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.about .personal ul li {
+    list-style-type: none;
+    margin: 10px;
+}
+
+.about .personal ul li span {
+    font-weight: 1000;
+    font-size: 18px;
+    color: black;
+}
+
+.about .declar {
+    position: relative;
+    margin-top: 20px;
+}
+
+.about .declar h5 {
+    color: #020641;
+    text-transform: uppercase;
+    font-weight: 1000;
+    letter-spacing: .5;
+    margin-top: 15px;
+    font-size: larger;
+    box-shadow: 10px 5px 5px green;
+    background-color: #17d4d4;
+
+}
+.about .declar .p2{
+    font-size: 18px;
+    color: black;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.about .date{
+    font-size: 18px;
+    color: black;
+    margin-top: 30px;   
+}
+.about .date ul li{
+    list-style-type: none;
+}

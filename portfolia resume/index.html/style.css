@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+background: lightblue;
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+}
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 100px;
+    min-height: 100%;
+    background: #fff;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    box-shadow: 0 35px 35px rgba(0, 0,0, 2);
+
+}
+.container .left_side{
+    position: relative;
+    background: #000580;
+    padding: 40px;
+}
+.container .right_side{
+    position: relative;
+    background: #0003;
+    padding: 40px;
+}
+
+
